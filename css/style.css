@@ -59,6 +59,8 @@ main div p{
 
 .recipe{
   background-image: url("../images/list-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 50px;
@@ -109,6 +111,7 @@ main div p{
 }
 
 .list-display{
+  margin-left: 50px;
   display: grid;
   font-family: cursive;
   grid-auto-columns: 1fr 1fr;
