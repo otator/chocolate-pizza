@@ -58,9 +58,9 @@ main div p{
 }
 
 .recipe{
-  background-image: url("/images/list-bg.png");
+  background-image: url("../images/list-bg.png");
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   margin-bottom: 50px;
 }
 .first-footer img{
@@ -106,4 +106,10 @@ main div p{
   width: 20px;
   margin: 0 20px;
   transform: translateY(-50);
+}
+
+.list-display{
+  display: grid;
+  font-family: cursive;
+  grid-auto-columns: 1fr 1fr;
 }
