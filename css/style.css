@@ -116,3 +116,7 @@ main div p{
   font-family: cursive;
   grid-auto-columns: 1fr 1fr;
 }
+.horizontal-bg{
+  background-image: url("../images/hr-img.png");
+  margin: 10px;
+}
